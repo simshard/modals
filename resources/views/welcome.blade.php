@@ -14,6 +14,7 @@
             </aside>
     
             <main class="text-sm col-span-9">
+                <h1 x-data="{ message: 'I ❤️ Alpine' }" x-text="message"></h1>
                 <p class="mb-4">
                     Exercitation commodo velit duis reprehenderit anim duis ullamco et ut cillum officia nostrud.
                 </p>
