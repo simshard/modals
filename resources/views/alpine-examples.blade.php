@@ -13,8 +13,9 @@
 </head>
 <body class="bg-gray-200">
     <div class="container  mx-auto  py-4 bg-gray-100">
-        <header class="bg-sky-300 p-4 mb-2">
-            <h1 class="text-center" x-data="{ message: 'I ❤️ Alpine' }" x-text="message"></h1>
+        <header class="bg-sky-300 p-4 mb-2 shadow-lg
+        shadow-neutral-300">
+            <h1 class="text-center" x-data="{ message: '❤️ Alpine ❤️ Tailwind' }" x-text="message"></h1>
         </header>
         <section>
             <h1 class="mx-3 mt-4">Counter</h1>

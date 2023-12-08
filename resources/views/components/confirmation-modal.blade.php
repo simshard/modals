@@ -1,7 +1,8 @@
 <div 
-  x-data="{show:false}"
-  x-show="show"
-  @hashchange.window=" if(location.hash==='#vitamin-depletion-modal')show=true;"
+  {{-- x-data="{show:false}"
+  x-show="show" --}}
+  {{-- style="display:none" --}}
+  {{-- @hashchange.window=" if(location.hash==='#vitamin-depletion-modal')show=true;" --}}
  >
     <div class="fixed inset-0 bg-neutral-500 opacity-70"></div>
     <div class="bg-white p-4 shadow-md shadow-sky-300 max-w-lg m-auto rounded-md fixed inset-4     h-48 ">
